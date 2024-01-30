@@ -64,3 +64,15 @@ label = "macro_mac_undo";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LGUI>, <&macro_tap &kp Z>, <&macro_release &kp LGUI>;
 };
+macro_mac_word_begin: macro_mac_word_begin{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_word_begin";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp LEFT_ARROW>, <&macro_release &kp LALT>;
+};
+macro_mac_word_end: macro_mac_word_end{
+compatible = "zmk,behavior-macro";
+label = "macro_mac_word_end";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LALT>, <&macro_tap &kp RIGHT_ARROW>, <&macro_release &kp LALT>;
+};
