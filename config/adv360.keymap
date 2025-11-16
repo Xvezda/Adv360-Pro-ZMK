@@ -9,13 +9,12 @@
  * edit it directly.
  */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/stp.h>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
-#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     behaviors {
@@ -38,11 +37,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4     &kp N5  &tog 1                                                  &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
-&kp TAB    &kp Q   &kp W   &kp E      &kp R      &kp T   &none                                                   &none      &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
-&kp LCTRL  &kp A   &kp S   &kp D      &kp F      &kp G   &none     &kp LGUI  &none         &none      &kp RGUI   &none      &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C      &kp V      &kp B                       &kp HOME      &kp PG_UP                        &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
-&mo 2      &none   &none   &kp MINUS  &kp EQUAL          &kp BSPC  &kp LALT  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
+&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4     &kp N5  &tog 1                                                    &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp E      &kp R      &kp T   &none                                                     &none      &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&kp LCTRL  &kp A   &kp S   &kp D      &kp F      &kp G   &none       &kp LGUI  &none         &none      &kp RGUI   &none      &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C      &kp V      &kp B                         &kp HOME      &kp PG_UP                        &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
+&mo 2      &none   &none   &kp MINUS  &kp EQUAL          &lt 4 BSPC  &kp LALT  &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
 
@@ -58,11 +57,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4               &kp F5  &kp F6                 &tog 1                                      &mo 3   &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
-&trans  &trans  &trans  &trans               &trans  &trans                 &none                                       &none   &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &trans               &trans  &trans                 &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans  &trans  &trans  &trans               &trans  &trans                                 &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &trans               &trans                         &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
             >;
         };
 
@@ -73,6 +72,16 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        layer_ctrl {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3     &kp N4     &kp N5  &tog 1                                                  &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp E      &kp R      &kp T   &none                                                   &none      &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&kp LCTRL  &kp A   &kp S   &kp D      &kp F      &kp G   &none      &kp LGUI  &none         &none      &kp RGUI  &none      &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C      &kp V      &kp B                        &kp HOME      &kp PG_UP                       &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
+&mo 2      &none   &none   &kp MINUS  &kp EQUAL          &kp LCTRL  &kp LALT  &kp END       &kp PG_DN  &kp BSPC  &kp SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
     };
