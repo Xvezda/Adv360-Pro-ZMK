@@ -78,7 +78,7 @@
         layer_ctrl {
             bindings = <
 &kp LC(ESC)    &kp LC(N1)  &kp LC(N2)  &kp LC(N3)     &kp LC(N4)     &kp LC(N5)  &tog 1                                                                    &mo 3      &kp LC(N6)  &kp LC(N7)    &kp LC(N8)     &kp LC(N9)   &kp LC(N0)    &kp LC(GRAVE)
-&kp TAB        &kp LC(Q)   &kp LC(W)   &kp LC(E)      &kp LC(R)      &kp LC(T)   &none                                                                     &none      &kp LC(Y)   &kp LC(U)     &kp LC(I)      &kp LC(O)    &kp LC(P)     &kp LC(BSLH)
+&kp RC(TAB)    &kp LC(Q)   &kp LC(W)   &kp LC(E)      &kp LC(R)      &kp LC(T)   &none                                                                     &none      &kp LC(Y)   &kp LC(U)     &kp LC(I)      &kp LC(O)    &kp LC(P)     &kp LC(BSLH)
 &kp LCTRL      &kp LC(A)   &kp LC(S)   &kp LC(D)      &kp LC(F)      &kp LC(G)   &none         &kp LGUI                &none         &none      &kp RGUI   &none      &kp LC(H)   &kp LC(J)     &kp LC(K)      &kp LC(L)    &kp LC(SEMI)  &kp LC(SQT)
 &kp LC(LSHFT)  &kp LC(Z)   &kp LC(X)   &kp LC(C)      &kp LC(V)      &kp LC(B)                                         &kp HOME      &kp PG_UP                        &kp LC(N)   &kp LC(M)     &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)  &kp LC(RSHFT)
 &mo 2          &none       &none       &kp LC(MINUS)  &kp LC(EQUAL)              &kp LC(BSPC)  &mt RC(LALT) RC(SPACE)  &kp END       &kp PG_DN  &kp ENTER  &kp RCTRL              &kp LC(LBKT)  &kp LC(RBKT)   &kp RALT     &kp RCTRL     &mo 2
