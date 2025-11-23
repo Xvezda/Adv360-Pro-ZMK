@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5  &tog 1                                                                        &none      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
-&kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                         &none      &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
-&kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3     &kp LGUI             &none         &none      &kp RGUI              &mo 3      &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                  &kp HOME      &kp PG_UP                                   &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &kp BSPC  &mt_quick LCTRL TAB  &kp END       &kp PG_DN  &mt_quick RALT ENTER  &kp SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
+&kp ESC    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5  &tog 1                                                                            &none                  &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
+&kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                             &none                  &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3                 &kp LGUI            &none      &none  &kp RGUI              &mo 3                  &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                             &none      &none                                               &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
+&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &mt_quick LCTRL BSPC  &mt_quick LALT TAB  &none      &none  &mt_quick RALT ENTER  &mt_quick RCTRL SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
 
