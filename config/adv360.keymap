@@ -86,8 +86,8 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc_or_fn {
-            bindings = <&ht_tap_mo 2 ESCAPE>;
+        combo_fn {
+            bindings = <&mo 2>;
             key-positions = <69 65>;
         };
 
@@ -96,9 +96,9 @@
             key-positions = <66 70>;
         };
 
-        combo_shift {
-            bindings = <&kp LSHIFT>;
-            key-positions = <65 70>;
+        combo_esc_or_tap {
+            bindings = <&ht_tap_kp LSHIFT ESCAPE>;
+            key-positions = <66 69>;
         };
     };
 
