@@ -138,21 +138,21 @@
 
         layer_b {
             bindings = <
-&trans  &trans           &trans           &trans            &trans             &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &trans           &trans           &trans            &trans             &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &sticky_kp LGUI  &sticky_kp LALT  &sticky_kp LCTRL  &sticky_kp LSHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp J   &kp K   &kp L   &kp SEMI  &trans
-&trans  &trans           &trans           &trans            &trans             &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans    &trans
-&trans  &trans           &trans           &trans            &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans    &trans
+&trans  &trans           &trans           &trans            &trans             &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &trans           &trans           &trans            &trans             &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &sticky_kp LGUI  &sticky_kp LALT  &sticky_kp LCTRL  &sticky_kp LSHIFT  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &kp J         &kp K       &kp L       &kp LS(COLON)  &trans
+&trans  &kp LS(TILDE)    &kp LS(UNDER)    &kp LS(PLUS)      &kp LS(DQT)        &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)  &kp LS(GT)  &kp LS(QMARK)  &trans
+&trans  &trans           &trans           &trans            &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans      &trans         &trans
             >;
         };
 
         layer_c {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans             &trans            &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans             &trans            &trans           &trans           &trans
-&trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &sticky_kp RSHIFT  &sticky_kp RCTRL  &sticky_kp RALT  &sticky_kp RGUI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans             &trans            &trans           &trans           &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans             &trans            &trans           &trans           &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans             &trans            &trans           &trans           &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans             &trans            &trans           &trans           &trans
+&trans  &kp A          &kp S          &kp D         &kp F        &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &sticky_kp RSHIFT  &sticky_kp RCTRL  &sticky_kp RALT  &sticky_kp RGUI  &trans
+&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(DQT)  &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)       &kp LS(LT)        &kp LS(GT)       &kp LS(QMARK)    &trans
+&trans  &trans         &trans         &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans                &trans             &trans            &trans           &trans           &trans
             >;
         };
 
