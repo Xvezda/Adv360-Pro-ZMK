@@ -72,6 +72,15 @@
             tapping-term-ms = <150>;
             flavor = "hold-preferred";
         };
+
+        skq: skq {
+            compatible = "zmk,behavior-sticky-key";
+            label = "SKQ";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+            quick-release;
+        };
     };
 
     combos {
@@ -145,7 +154,7 @@
             bindings = <
 &trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans  &trans  &trans     &trans   &trans         &trans
 &trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans  &trans  &trans     &trans   &trans         &trans
-&trans  &sk LGUI       &sk LALT       &sk LCTRL     &sk LSHIFT   &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp J   &kp K      &kp L    &kp SEMICOLON  &trans
+&trans  &skq LGUI      &skq LALT      &skq LCTRL    &skq LSHIFT  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp J   &kp K      &kp L    &kp SEMICOLON  &trans
 &trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(DQT)  &kp LS(PIPE)                  &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH       &trans
 &trans  &trans         &trans         &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans         &trans
             >;
@@ -155,7 +164,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
-&trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans        &sk RSHIFT    &sk RCTRL   &sk RALT    &sk RGUI       &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans        &skq RSHIFT   &skq RCTRL  &skq RALT   &skq RGUI      &trans
 &trans  &kp Z   &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)  &kp LS(GT)  &kp LS(QMARK)  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans      &trans         &trans
             >;
