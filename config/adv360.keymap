@@ -40,6 +40,7 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
             quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
 
         mo_tap: mo_tap {
@@ -51,6 +52,7 @@
             tapping-term-ms = <150>;
             flavor = "tap-preferred";
             quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
         };
 
         kp_hold: kp_hold {
