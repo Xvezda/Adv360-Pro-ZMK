@@ -88,12 +88,17 @@
 
         combo_esc_or_fn {
             bindings = <&ht_tap_mo 2 ESCAPE>;
-            key-positions = <65 70>;
+            key-positions = <69 65>;
         };
 
         combo_gui {
             bindings = <&kp LGUI>;
-            key-positions = <66 69>;
+            key-positions = <66 70>;
+        };
+
+        combo_shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <65 70>;
         };
     };
 
