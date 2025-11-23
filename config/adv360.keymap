@@ -122,7 +122,7 @@
 &trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans            &trans                      &trans                      &trans                         &trans
 &trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans            &trans                      &trans                      &trans                         &trans
 &trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp_tap RALT RIGHT_BRACKET  &kp_tap RCTRL SINGLE_QUOTE  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
-&trans  &trans            &kp GRAVE        &kp MINUS       &kp EQUAL       &trans                  &trans      &trans                  &trans  &kp BACKSLASH     &trans                      &trans                      &trans                         &trans
+&trans  &kp ESCAPE        &kp GRAVE        &kp MINUS       &kp EQUAL       &trans                  &trans      &trans                  &trans  &kp BACKSLASH     &trans                      &trans                      &trans                         &trans
 &trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans            &trans                      &trans                      &trans                         &trans
             >;
         };
