@@ -39,8 +39,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <100>;
             flavor = "tap-preferred";
-            quick-tap-ms = <80>;
-            require-prior-idle-ms = <50>;
+            quick-tap-ms = <100>;
+            require-prior-idle-ms = <80>;
         };
 
         mo_tap: mo_tap {
@@ -51,8 +51,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <100>;
             flavor = "tap-preferred";
-            quick-tap-ms = <80>;
-            require-prior-idle-ms = <50>;
+            quick-tap-ms = <100>;
+            require-prior-idle-ms = <80>;
         };
 
         kp_hold: kp_hold {
