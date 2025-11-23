@@ -96,9 +96,14 @@
             key-positions = <66 70>;
         };
 
-        combo_esc_or_tap {
+        combo_esc_or_shift {
             bindings = <&ht_tap_kp LSHIFT ESCAPE>;
             key-positions = <66 69>;
+        };
+
+        combo_tbd {
+            bindings = <&trans>;
+            key-positions = <65 70>;
         };
     };
 
