@@ -142,11 +142,11 @@
 
         layer_a {
             bindings = <
-&trans  &trans        &trans      &trans         &trans            &trans         &trans                                          &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)      &kp LS(PRCNT)  &trans                                          &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &kp N1        &kp N2      &kp N3         &kp N4            &kp N5         &trans  &trans  &trans      &trans  &trans      &trans  &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &trans
-&trans  &kp GRAVE     &kp MINUS   &kp EQUAL      &kp SINGLE_QUOTE  &kp BACKSLASH                  &trans      &trans                      &kp LBKT       &kp RBKT      &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &trans         &trans                           &trans  &trans  &trans      &trans  &kp RSHIFT  &trans                 &trans        &trans        &trans        &trans        &trans
+&trans  &trans     &trans     &trans     &trans            &trans         &trans                                      &trans  &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &kp N1     &kp N2     &kp N3     &kp N4            &kp N5         &trans                                      &trans  &kp N6    &kp N7    &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans     &trans     &trans     &trans            &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &kp GRAVE  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH                  &trans      &trans                  &kp LBKT  &kp RBKT  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans                           &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -172,11 +172,11 @@
 
         layer_d {
             bindings = <
-&trans  &trans        &trans      &trans         &trans            &trans         &trans                                          &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)      &kp LS(PRCNT)  &trans                                          &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &kp N1        &kp N2      &kp N3         &kp N4            &kp N5         &trans  &trans      &trans      &trans  &trans  &trans  &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &trans
-&trans  &kp GRAVE     &kp MINUS   &kp EQUAL      &kp SINGLE_QUOTE  &kp BACKSLASH                      &trans      &trans                  &kp LBKT       &kp RBKT      &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &trans         &trans                           &trans  &kp LSHIFT  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans        &trans
+&trans  &trans         &trans         &trans         &trans        &trans         &trans                                      &trans  &trans         &trans        &trans        &trans        &trans        &trans
+&trans  &kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &trans                                      &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
+&trans  &trans         &trans         &trans         &trans        &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans        &trans        &trans        &trans        &trans
+&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)   &kp LS(DQT)   &kp LS(PIPE)                   &trans      &trans                  &kp LS(LBRC)   &kp LS(RBRC)  &trans        &trans        &trans        &trans
+&trans  &trans         &trans         &trans         &trans                       &trans  &trans  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans        &trans
             >;
         };
     };
