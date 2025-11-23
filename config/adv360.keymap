@@ -37,10 +37,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
             flavor = "tap-preferred";
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
+            quick-tap-ms = <100>;
         };
 
         mo_quick: mo_quick {
@@ -49,10 +48,9 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <200>;
+            tapping-term-ms = <100>;
+            quick-tap-ms = <100>;
             flavor = "tap-preferred";
-            require-prior-idle-ms = <125>;
         };
     };
 
@@ -65,7 +63,7 @@
 &kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                         &none              &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
 &kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3             &kp LGUI            &none      &none  &kp RGUI              &mo 3              &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                         &none      &none                                           &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &mo_quick 4 BSPC  &kp_quick LALT TAB  &none      &none  &kp_quick RALT ENTER  &mo_quick 7 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
+&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &mo_quick 4 BSPC  &kp_quick LALT TAB  &none      &none  &kp_quick RALT ENTER  &mo_quick 4 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
 
@@ -100,36 +98,6 @@
         };
 
         layer_a {
-            bindings = <
-&trans  &trans              &trans             &trans            &trans            &trans  &trans                                      &trans  &trans     &trans            &trans                        &trans                        &trans                           &trans
-&trans  &kp N1              &kp N2             &kp N3            &kp N4            &kp N5  &trans                                      &trans  &kp N6     &kp N7            &kp N8                        &kp N9                        &kp N0                           &trans
-&trans  &kp_quick LSHIFT A  &kp_quick LCTRL S  &kp_quick LALT D  &kp_quick LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE  &kp LEFT_BRACKET  &kp_quick RALT RIGHT_BRACKET  &kp_quick RCTRL SINGLE_QUOTE  &kp_quick RIGHT_SHIFT SEMICOLON  &trans
-&trans  &trans              &trans             &kp MINUS         &kp EQUAL         &trans                  &trans      &trans                  &trans     &kp BACKSLASH     &trans                        &trans                        &trans                           &trans
-&trans  &trans              &trans             &trans            &trans                    &trans  &trans  &trans      &trans  &trans  &trans             &trans            &trans                        &trans                        &trans                           &trans
-            >;
-        };
-
-        layer_b {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_c {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_d {
             bindings = <
 &trans  &trans              &trans             &trans            &trans            &trans  &trans                                      &trans  &trans     &trans            &trans                        &trans                        &trans                           &trans
 &trans  &kp N1              &kp N2             &kp N3            &kp N4            &kp N5  &trans                                      &trans  &kp N6     &kp N7            &kp N8                        &kp N9                        &kp N0                           &trans
