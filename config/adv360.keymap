@@ -172,11 +172,11 @@
 
         layer_d {
             bindings = <
-&trans  &trans         &trans         &trans         &trans        &trans         &trans                                      &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &trans                                      &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &trans         &trans         &trans         &trans        &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)   &kp LS(DQT)   &kp LS(PIPE)                   &trans      &trans                  &kp LS(LBRC)   &kp LS(RBRC)  &trans        &trans        &trans        &trans
-&trans  &trans         &trans         &trans         &trans                       &trans  &trans  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans        &trans
+&trans  &trans         &trans         &trans         &trans        &trans         &trans                                      &trans  &trans         &trans        &trans        &trans        &trans         &trans
+&trans  &kp LS(EXCL)   &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &trans                                      &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &trans
+&trans  &trans         &trans         &trans         &trans        &trans         &trans  &trans  &trans      &trans  &trans  &trans  &trans         &trans        &trans        &trans        &trans         &trans
+&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)   &kp LS(DQT)   &kp LS(PIPE)                   &trans      &trans                  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &trans
+&trans  &trans         &trans         &trans         &trans                       &trans  &trans  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans         &trans
             >;
         };
     };
