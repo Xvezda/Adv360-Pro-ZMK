@@ -149,11 +149,11 @@
 
         layer_d {
             bindings = <
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
-&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI LEFT_BRACKET  &kp_tap RALT RIGHT_BRACKET  &kp_tap RCTRL SINGLE_QUOTE  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
-&trans  &kp Z             &kp X            &kp C           &kp V           &trans                  &trans      &trans                  &trans  &kp BACKSLASH              &trans                      &trans                      &trans                         &trans
-&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans                     &trans                      &trans                      &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
+&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI J  &kp_tap RALT K  &kp_tap RCTRL L  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
+&trans  &kp Z             &kp X            &kp C           &kp V           &trans                  &trans      &trans                  &trans  &kp BACKSLASH   &trans          &trans           &trans                         &trans
+&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans                         &trans
             >;
         };
     };
