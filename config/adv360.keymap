@@ -38,9 +38,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            flavor = "tap-preferred";
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <125>;
+            flavor = "hold-preferred";
         };
 
         mo_quick: mo_quick {
@@ -50,9 +48,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick-tap-ms = <150>;
-            flavor = "tap-preferred";
-            require-prior-idle-ms = <125>;
+            flavor = "hold-preferred";
         };
     };
 
@@ -101,11 +97,11 @@
 
         layer_a {
             bindings = <
-&trans  &trans              &trans             &trans            &trans            &trans  &trans                                      &trans  &trans     &trans            &trans                        &trans                        &trans                           &trans
-&trans  &kp N1              &kp N2             &kp N3            &kp N4            &kp N5  &trans                                      &trans  &kp N6     &kp N7            &kp N8                        &kp N9                        &kp N0                           &trans
-&trans  &kp_quick LSHIFT A  &kp_quick LCTRL S  &kp_quick LALT D  &kp_quick LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp GRAVE  &kp LEFT_BRACKET  &kp_quick RALT RIGHT_BRACKET  &kp_quick RCTRL SINGLE_QUOTE  &kp_quick RIGHT_SHIFT SEMICOLON  &trans
-&trans  &trans              &trans             &kp MINUS         &kp EQUAL         &trans                  &trans      &trans                  &trans     &kp BACKSLASH     &trans                        &trans                        &trans                           &trans
-&trans  &trans              &trans             &trans            &trans                    &trans  &trans  &trans      &trans  &trans  &trans             &trans            &trans                        &trans                        &trans                           &trans
+&trans  &trans              &trans             &trans            &trans            &trans  &trans                                      &trans  &trans         &trans            &trans                        &trans                        &trans                           &trans
+&trans  &kp N1              &kp N2             &kp N3            &kp N4            &kp N5  &trans                                      &trans  &kp N6         &kp N7            &kp N8                        &kp N9                        &kp N0                           &trans
+&trans  &kp_quick LSHIFT A  &kp_quick LCTRL S  &kp_quick LALT D  &kp_quick LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp BACKSLASH  &kp LEFT_BRACKET  &kp_quick RALT RIGHT_BRACKET  &kp_quick RCTRL SINGLE_QUOTE  &kp_quick RIGHT_SHIFT SEMICOLON  &trans
+&trans  &trans              &trans             &kp MINUS         &kp EQUAL         &trans                  &trans      &trans                  &kp GRAVE      &trans            &trans                        &trans                        &trans                           &trans
+&trans  &trans              &trans             &trans            &trans                    &trans  &trans  &trans      &trans  &trans  &trans                 &trans            &trans                        &trans                        &trans                           &trans
             >;
         };
     };
