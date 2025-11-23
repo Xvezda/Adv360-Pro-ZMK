@@ -78,7 +78,8 @@
             label = "STICKY_KP";
             bindings = <&kp>;
             #binding-cells = <1>;
-            release-after-ms = <1000>;
+            release-after-ms = <2000>;
+            quick-release;
         };
     };
 
