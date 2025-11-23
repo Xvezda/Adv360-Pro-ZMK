@@ -72,23 +72,19 @@
             tapping-term-ms = <150>;
             flavor = "hold-preferred";
         };
-
-        sticky_kp: sticky_kp {
-            compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_KP";
-            bindings = <&kp>;
-            #binding-cells = <1>;
-            release-after-ms = <2000>;
-            quick-release;
-        };
     };
 
     combos {
         compatible = "zmk,combos";
 
-        combo_fn {
-            bindings = <&mo 2>;
+        combo_esc_or_fn {
+            bindings = <&ht_tap_mo 2 ESCAPE>;
             key-positions = <66 69>;
+        };
+
+        combo_shift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <65 70>;
         };
     };
 
@@ -117,11 +113,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7          &kp F8          &kp F9        &kp F10          &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
+&trans  &trans   &trans  &trans  &trans  &trans  &tog 1                                      &mo 3   &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &none                                       &none   &kp F6          &kp F7          &kp F8        &kp F9           &kp F10  &trans
+&trans  &kp F11  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F12  &trans
+&trans  &trans   &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans          &trans        &trans           &trans   &trans
+&trans  &trans   &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans   &trans
             >;
         };
 
@@ -147,21 +143,21 @@
 
         layer_b {
             bindings = <
-&trans  &trans           &trans           &trans            &trans             &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
-&trans  &trans           &trans           &trans            &trans             &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
-&trans  &sticky_kp LGUI  &sticky_kp LALT  &sticky_kp LCTRL  &sticky_kp LSHIFT  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &kp J         &kp K       &kp L       &kp LS(COLON)  &trans
-&trans  &kp LS(TILDE)    &kp LS(UNDER)    &kp LS(PLUS)      &kp LS(DQT)        &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)  &kp LS(GT)  &kp LS(QMARK)  &trans
-&trans  &trans           &trans           &trans            &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans      &trans         &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &sk LGUI       &sk LALT       &sk LCTRL     &sk LSHIFT   &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &kp J         &kp K       &kp L       &kp LS(COLON)  &trans
+&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(DQT)  &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)  &kp LS(GT)  &kp LS(QMARK)  &trans
+&trans  &trans         &trans         &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans      &trans         &trans
             >;
         };
 
         layer_c {
             bindings = <
-&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans             &trans            &trans           &trans           &trans
-&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans             &trans            &trans           &trans           &trans
-&trans  &kp A          &kp S          &kp D         &kp F        &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &sticky_kp RSHIFT  &sticky_kp RCTRL  &sticky_kp RALT  &sticky_kp RGUI  &trans
-&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(DQT)  &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)       &kp LS(LT)        &kp LS(GT)       &kp LS(QMARK)    &trans
-&trans  &trans         &trans         &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans                &trans             &trans            &trans           &trans           &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &trans         &trans         &trans        &trans       &trans        &trans                                      &trans  &trans        &trans        &trans      &trans      &trans         &trans
+&trans  &kp A          &kp S          &kp D         &kp F        &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans        &sk RSHIFT    &sk RCTRL   &sk RALT    &sk RGUI       &trans
+&trans  &kp LS(TILDE)  &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(DQT)  &kp LS(PIPE)                  &trans      &trans                  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)  &kp LS(GT)  &kp LS(QMARK)  &trans
+&trans  &trans         &trans         &trans        &trans                     &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans      &trans         &trans
             >;
         };
 
