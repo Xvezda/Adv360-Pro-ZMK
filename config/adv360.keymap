@@ -83,7 +83,7 @@
 &kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                  &none            &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
 &kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3           &kp LGUI            &none      &none  &kp RGUI         &mo 3            &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                       &none      &none                                    &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &mo_tap 4 BSPC  &kp_tap LSHIFT TAB  &none      &none  &mo_tap 6 ENTER  &mo_tap 7 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
+&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &mo_tap 4 BSPC  &kp_tap LSHIFT TAB  &none      &none  &mo_tap 6 ENTER  &mo_tap 0 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
 
@@ -119,11 +119,11 @@
 
         layer_a {
             bindings = <
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
-&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI LEFT_BRACKET  &kp_tap RALT RIGHT_BRACKET  &kp_tap RCTRL SINGLE_QUOTE  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
-&trans  &kp ESCAPE        &kp GRAVE        &kp MINUS       &kp EQUAL       &trans                  &trans      &trans                  &trans  &kp M                      &trans                      &trans                      &trans                         &trans
-&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans                     &trans                      &trans                      &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
+&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI J  &kp_tap RALT K  &kp_tap RCTRL L  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
+&trans  &kp ESCAPE        &kp GRAVE        &kp MINUS       &kp EQUAL       &trans                  &trans      &trans                  &trans  &kp M           &trans          &trans           &trans                         &trans
+&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans                         &trans
             >;
         };
 
@@ -149,11 +149,11 @@
 
         layer_d {
             bindings = <
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
-&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans                         &trans
-&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI J  &kp_tap RALT K  &kp_tap RCTRL L  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
-&trans  &kp Z             &kp X            &kp C           &kp V           &trans                  &trans      &trans                  &trans  &kp BACKSLASH   &trans          &trans           &trans                         &trans
-&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
+&trans  &trans            &trans           &trans          &trans          &trans  &trans                                      &trans  &trans  &trans                     &trans                      &trans                      &trans                         &trans
+&trans  &kp_tap LSHIFT A  &kp_tap LCTRL S  &kp_tap LALT D  &kp_tap LGUI F  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp_tap RGUI LEFT_BRACKET  &kp_tap RALT RIGHT_BRACKET  &kp_tap RCTRL SINGLE_QUOTE  &kp_tap RIGHT_SHIFT SEMICOLON  &trans
+&trans  &kp Z             &kp X            &kp C           &kp V           &trans                  &trans      &trans                  &trans  &kp BACKSLASH              &trans                      &trans                      &trans                         &trans
+&trans  &trans            &trans           &trans          &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans                     &trans                      &trans                      &trans                         &trans
             >;
         };
     };
