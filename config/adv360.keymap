@@ -95,6 +95,11 @@
             bindings = <&trans>;
             key-positions = <66 69>;
         };
+
+        combo_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <66 70>;
+        };
     };
 
     keymap {
