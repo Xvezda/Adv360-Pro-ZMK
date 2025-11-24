@@ -178,9 +178,9 @@
         layer_d {
             bindings = <
 &trans  &trans        &trans        &trans         &trans         &trans         &trans                                      &trans  &trans         &trans        &trans        &trans        &trans         &trans
-&trans  &trans        &kp LS(LPAR)  &kp LS(RPAR)   &kp MINUS      &kp EQUAL      &trans                                      &trans  &kp GRAVE      &kp SQT       &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)   &trans
+&trans  &trans        &kp LBKT      &kp RBKT       &kp LS(UNDER)  &kp LS(PLUS)   &trans                                      &trans  &kp LS(TILDE)  &kp LS(DQT)   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(PIPE)   &trans
 &trans  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)   &kp LS(PRCNT)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp BSLH      &kp LS(COLON)  &trans
-&trans  &kp ESC       &kp LBKT      &kp RBKT       &kp LS(UNDER)  &kp LS(PLUS)                   &trans      &trans                  &kp LS(TILDE)  &kp LS(DQT)   &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &trans
+&trans  &kp ESC       &kp LS(LPAR)  &kp LS(RPAR)   &kp MINUS      &kp EQUAL                      &trans      &trans                  &kp GRAVE      &kp SQT       &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &trans
 &trans  &trans        &trans        &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans         &trans
             >;
         };
