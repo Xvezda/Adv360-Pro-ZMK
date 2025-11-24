@@ -88,17 +88,7 @@
 
         combo_fn {
             bindings = <&mo 2>;
-            key-positions = <69 65>;
-        };
-
-        combo_gui {
-            bindings = <&kp LGUI>;
-            key-positions = <66 70>;
-        };
-
-        combo_esc_or_shift {
-            bindings = <&ht_tap_kp LSHIFT ESCAPE>;
-            key-positions = <66 69>;
+            key-positions = <69 66>;
         };
 
         combo_tbd {
@@ -112,11 +102,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5  &tog 1                                                                     &none               &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
-&kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                      &none               &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
-&kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3              &kp LGUI          &none      &none  &kp RGUI            &mo 3               &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                        &none      &none                                          &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
-&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &ht_tap_mo 4 BSPC  &ht_tap_mo 5 TAB  &none      &none  &ht_tap_mo 6 ENTER  &ht_tap_mo 7 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
+&kp ESC    &kp N1     &kp N2    &kp N3     &kp N4     &kp N5  &tog 1                                                                          &none               &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
+&kp TAB    &kp Q      &kp W     &kp E      &kp R      &kp T   &none                                                                           &none               &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&kp LCTRL  &kp A      &kp S     &kp D      &kp F      &kp G   &mo 3              &kp LGUI               &none      &none  &kp RGUI            &mo 3               &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C      &kp V      &kp B                                             &none      &none                                          &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &kp RSHFT
+&mo 2      &kp LCTRL  &kp LALT  &kp MINUS  &kp EQUAL          &ht_tap_mo 4 BSPC  &ht_tap_kp LSHIFT TAB  &none      &none  &ht_tap_mo 6 ENTER  &ht_tap_mo 7 SPACE          &kp LBKT  &kp RBKT   &kp RALT  &kp RCTRL  &mo 2
             >;
         };
 
