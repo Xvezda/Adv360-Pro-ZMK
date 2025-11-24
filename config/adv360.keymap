@@ -88,7 +88,7 @@
 
         combo_fn {
             bindings = <&mo 2>;
-            key-positions = <65 70>;
+            key-positions = <70 66>;
         };
 
         combo_tbd {
@@ -98,7 +98,7 @@
 
         combo_shift {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <66 70>;
+            key-positions = <70 65>;
         };
     };
 
