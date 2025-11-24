@@ -152,21 +152,21 @@
 
         layer_b {
             bindings = <
-&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &skq LGUI  &skq LALT  &skq LCTRL  &skq LSHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &skq RSHIFT  &skq RCTRL  &skq RALT  &skq RGUI  &trans
-&trans  &trans     &trans     &trans      &trans       &trans                  &trans      &trans                  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &trans     &trans     &trans      &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans      &trans     &trans     &trans
+&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &skq LGUI  &skq LALT  &skq LCTRL  &skq LSHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans       &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans      &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_c {
             bindings = <
-&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &trans     &trans     &trans      &trans       &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &skq LGUI  &skq LALT  &skq LCTRL  &skq LSHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &skq RSHIFT  &skq RCTRL  &skq RALT  &skq RGUI  &trans
-&trans  &trans     &trans     &trans      &trans       &trans                  &trans      &trans                  &trans  &trans       &trans      &trans     &trans     &trans
-&trans  &trans     &trans     &trans      &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans      &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans       &trans      &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &skq RSHIFT  &skq RCTRL  &skq RALT  &skq RGUI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans       &trans      &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans      &trans     &trans     &trans
             >;
         };
 
