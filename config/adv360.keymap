@@ -88,12 +88,12 @@
 
         combo_fn {
             bindings = <&mo 2>;
-            key-positions = <69 66>;
+            key-positions = <65 70>;
         };
 
         combo_tbd {
             bindings = <&trans>;
-            key-positions = <65 70>;
+            key-positions = <66 69>;
         };
     };
 
