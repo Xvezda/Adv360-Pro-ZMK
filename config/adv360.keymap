@@ -86,14 +86,34 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_lctrl {
+        combo_lc {
             bindings = <&kp LCTRL>;
             key-positions = <32 31>;
         };
 
-        combo_lalt {
+        combo_lm {
             bindings = <&kp LALT>;
             key-positions = <32 30>;
+        };
+
+        combo_lcm {
+            bindings = <&kp LC(LALT)>;
+            key-positions = <30 32 31>;
+        };
+
+        combo_rc {
+            bindings = <&kp RCTRL>;
+            key-positions = <41 42>;
+        };
+
+        combo_rm {
+            bindings = <&kp RALT>;
+            key-positions = <41 43>;
+        };
+
+        combo_rcm {
+            bindings = <&kp RC(RALT)>;
+            key-positions = <42 43 41>;
         };
     };
 
