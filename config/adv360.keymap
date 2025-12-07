@@ -215,6 +215,16 @@
             bindings = <&skq RG(RC(RS(RALT)))>;
             key-positions = <44 43 42 40>;
         };
+
+        combo_lsg {
+            bindings = <&skq LS(LGUI)>;
+            key-positions = <29 33>;
+        };
+
+        combo_rsg {
+            bindings = <&skq RS(RGUI)>;
+            key-positions = <40 44>;
+        };
     };
 
     keymap {
