@@ -178,17 +178,17 @@
 
         combo_lsgc {
             bindings = <&skq LG(LS(LCTRL))>;
-            key-positions = <50 47 49>;
+            key-positions = <47 49>;
         };
 
         combo_lsgm {
             bindings = <&skq LG(LS(LALT))>;
-            key-positions = <47 48 50>;
+            key-positions = <47 48>;
         };
 
         combo_lsgcm {
             bindings = <&skq LC(LG(LS(LALT)))>;
-            key-positions = <47 48 49 50>;
+            key-positions = <47 48 49>;
         };
 
         combo_rsc {
@@ -213,17 +213,17 @@
 
         combo_rsgc {
             bindings = <&skq RG(RS(RCTRL))>;
-            key-positions = <55 56 58>;
+            key-positions = <56 58>;
         };
 
         combo_rsgm {
             bindings = <&skq RG(RS(RALT))>;
-            key-positions = <55 57 58>;
+            key-positions = <57 58>;
         };
 
         combo_rsgcm {
             bindings = <&skq RC(RG(RS(RALT)))>;
-            key-positions = <55 56 57 58>;
+            key-positions = <56 57 58>;
         };
     };
 
