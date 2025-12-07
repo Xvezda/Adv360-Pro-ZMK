@@ -87,32 +87,32 @@
         compatible = "zmk,combos";
 
         combo_lc {
-            bindings = <&kp LCTRL>;
+            bindings = <&sk LCTRL>;
             key-positions = <32 31>;
         };
 
         combo_lm {
-            bindings = <&kp LALT>;
+            bindings = <&sk LALT>;
             key-positions = <32 30>;
         };
 
         combo_lcm {
-            bindings = <&kp LC(LALT)>;
+            bindings = <&sk LC(LALT)>;
             key-positions = <30 32 31>;
         };
 
         combo_rc {
-            bindings = <&kp RCTRL>;
+            bindings = <&sk RCTRL>;
             key-positions = <41 42>;
         };
 
         combo_rm {
-            bindings = <&kp RALT>;
+            bindings = <&sk RALT>;
             key-positions = <41 43>;
         };
 
         combo_rcm {
-            bindings = <&kp RC(RALT)>;
+            bindings = <&sk RC(RALT)>;
             key-positions = <42 43 41>;
         };
     };
