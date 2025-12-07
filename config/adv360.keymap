@@ -126,36 +126,6 @@
             key-positions = <41 44>;
         };
 
-        combo_lsc {
-            bindings = <&skq LS(LCTRL)>;
-            key-positions = <33 31>;
-        };
-
-        combo_lsm {
-            bindings = <&skq LS(LALT)>;
-            key-positions = <33 30>;
-        };
-
-        combo_lscm {
-            bindings = <&skq LC(LS(LALT))>;
-            key-positions = <33 30 31>;
-        };
-
-        combo_rsc {
-            bindings = <&skq RS(RCTRL)>;
-            key-positions = <40 42>;
-        };
-
-        combo_rsm {
-            bindings = <&skq RS(RALT)>;
-            key-positions = <40 43>;
-        };
-
-        combo_rscm {
-            bindings = <&skq RC(RS(RALT))>;
-            key-positions = <40 42 43>;
-        };
-
         combo_lgc {
             bindings = <&skq LG(LCTRL)>;
             key-positions = <29 31>;
@@ -169,21 +139,6 @@
         combo_lgcm {
             bindings = <&skq LC(LG(LALT))>;
             key-positions = <29 30 31>;
-        };
-
-        combo_lsgc {
-            bindings = <&skq LG(LS(LCTRL))>;
-            key-positions = <29 31 33>;
-        };
-
-        combo_lsgm {
-            bindings = <&skq LG(LS(LALT))>;
-            key-positions = <29 30 33>;
-        };
-
-        combo_lsgcm {
-            bindings = <&skq LC(LG(LS(LALT)))>;
-            key-positions = <29 31 33 30>;
         };
 
         combo_rgc {
@@ -201,29 +156,74 @@
             key-positions = <44 43 42>;
         };
 
-        combo_rsgc {
-            bindings = <&skq RG(RS(RCTRL))>;
-            key-positions = <44 42 40>;
+        combo_lsc {
+            bindings = <&skq LS(LCTRL)>;
+            key-positions = <49 50>;
         };
 
-        combo_rsgm {
-            bindings = <&skq RG(RS(RALT))>;
-            key-positions = <44 43 40>;
+        combo_lsm {
+            bindings = <&skq LS(LALT)>;
+            key-positions = <50 48>;
         };
 
-        combo_rsgcm {
-            bindings = <&skq RG(RC(RS(RALT)))>;
-            key-positions = <44 43 42 40>;
+        combo_lscm {
+            bindings = <&skq LC(LS(LALT))>;
+            key-positions = <50 49 48>;
         };
 
         combo_lsg {
             bindings = <&skq LS(LGUI)>;
-            key-positions = <29 33>;
+            key-positions = <47 50>;
+        };
+
+        combo_lsgc {
+            bindings = <&skq LG(LS(LCTRL))>;
+            key-positions = <50 47 49>;
+        };
+
+        combo_lsgm {
+            bindings = <&skq LG(LS(LALT))>;
+            key-positions = <47 48 50>;
+        };
+
+        combo_lsgcm {
+            bindings = <&skq LC(LG(LS(LALT)))>;
+            key-positions = <47 48 49 50>;
+        };
+
+        combo_rsc {
+            bindings = <&skq RS(RCTRL)>;
+            key-positions = <55 56>;
+        };
+
+        combo_rsm {
+            bindings = <&skq RS(RALT)>;
+            key-positions = <55 57>;
+        };
+
+        combo_rscm {
+            bindings = <&skq RC(RS(RALT))>;
+            key-positions = <55 56 57>;
         };
 
         combo_rsg {
             bindings = <&skq RS(RGUI)>;
-            key-positions = <40 44>;
+            key-positions = <55 58>;
+        };
+
+        combo_rsgc {
+            bindings = <&skq RG(RS(RCTRL))>;
+            key-positions = <55 56 58>;
+        };
+
+        combo_rsgm {
+            bindings = <&skq RG(RS(RALT))>;
+            key-positions = <55 57 58>;
+        };
+
+        combo_rsgcm {
+            bindings = <&skq RC(RG(RS(RALT)))>;
+            key-positions = <55 56 57 58>;
         };
     };
 
